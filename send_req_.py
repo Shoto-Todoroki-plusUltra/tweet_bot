@@ -4,7 +4,7 @@ import threading
 import time
 
 def tweet(tweet_text="abcd"):
-    url = "https://api.twitter.com/XXX/CreateTweet"
+    url = "https://api.twitter.com/xxx/CreateTweet"
     headers = {
         "Host": "api.twitter.com",
         "Cookie": 'guest_id_marketing=xxx; guest_id_ads=xxx; _ga=xxx; kdt=xxx; auth_multi="xxx:xxx"; auth_token=xxx; personalization_id="xxx"; guest_id=xxx; twid=xxx; ct0=xxx; _gid=xxx', 
