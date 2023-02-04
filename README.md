@@ -10,7 +10,14 @@ Then, go to chrome and open twitter website and sign into it. And set foxyproxy 
 Now go to burp suite and click on proxy tab. Click on "Intercept is off" to turn it on.
 Now write any random tweet, and click tweet. You may see some actuvity on burp suite (or may have already seen), click on drop until you see a post request to something like https://api.twitter.com/xxx/CreateTweet (xxx is user specific). Now copy the specifics like cookies and the url and paste it into send_req_.py into the right places.
 
+Now, go to your nextTime.txt file and enter nothing else (not even a space or new line) but the time you want your first tweet to go in, after epoch in seconds (you can get present time passed since epoch using:
+from time import time
+print(time())
+)
+
+Now, go to your interval.txt file and enter (once again) nothing else but the interval in which the tweets should be sent in seconds. Basically the time difference between the two tweets.
+
 Now, everything is in order. Go to your server and start final.py file.
-You can get a free, minimalist server for yourself at https://www.pythonanywhere.com/
+You can get a free, minimalist server for yourself at https://www.pythonanywhere.com/, but don't expect much of performance from it though.
 
 :)💜💜
