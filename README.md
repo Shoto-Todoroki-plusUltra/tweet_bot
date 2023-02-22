@@ -18,6 +18,6 @@ print(time())
 Now, go to your interval.txt file and enter (once again) nothing else but the interval in which the tweets should be sent in seconds. Basically the time difference between the two tweets.
 
 Now, everything is in order. Go to your server and start final.py file.
-You can get a free, minimalist server for yourself at https://www.pythonanywhere.com/, but don't expect much of performance from it though.
+You can deploy your project at github actions.
 
 :)💜💜
